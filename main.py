@@ -7,7 +7,7 @@ def main():
     r1 = Resistor(1, r2)
     b.next_component = r1
     r2.next_component = b
-    print(Helpers.current_drawn(b))
+    print(Helpers.calculate_current_drawn(b))
 
 
 if __name__ == "__main__":
